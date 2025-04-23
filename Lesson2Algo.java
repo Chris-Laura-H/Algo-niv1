@@ -25,9 +25,9 @@ public class Lesson2Algo {
             System.out.println("La somme (" + somme + ") n'est pas supérieure à 10.");
         }
 
-        scanner.close();5
-        8
+        scanner.close();
         
+
 
  
  
