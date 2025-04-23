@@ -10,16 +10,16 @@ public class Lesson1Algo {
           /***--------  Début du code  -------------------****/
  
  
-          int a;
  
+          Scanner clavier = new Scanner(System.in);
+
+          System.out.print("Entrez votre nom : ");
+        
+          String nom = clavier.nextLine();
  
-          Scanner sc = new Scanner(System.in);
+          System.out.println("Bonjour" + nom);
  
-          a = sc.nextInt();
- 
-          System.out.println(a);
- 
-          sc.close();
+          clavier.close();
  
  
         /***--------  Fin du code  -------------------****/
