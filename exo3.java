@@ -32,13 +32,11 @@ import java.util.Scanner; // Importe le scanner par java
  
         int result = a + b; // La machine calcul les deux variables
 
-        if(result % 2 ==0)
- 
-        System.out.println("le résultat est pair " + result); // Affiche le résultat
-
-        Else 
-        
-        System.out.println("le résultat est impair " + result);
+        if (result % 2 ==0) {
+            System.out.println("Le résultat (" + result + ") est pair.");
+        } else {
+            System.out.println("Le résultat (" + result + ") est impair.");
+        }
  
         sc.close(); // Ferme le scanner
        
