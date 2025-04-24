@@ -1,3 +1,4 @@
+import java.util.Scanner; /* Importation de la bibliothèque Java Scanner */
 
  
     /***--------Donner un nom à votre class -------------------****/
