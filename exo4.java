@@ -1,22 +1,20 @@
-/* EXO1 : A l'aide de Scanner et Print, me faire afficher le résultat d'une addition de deux entiers        
+/* EXO4 : A l'aide de Scanner et Print, tester si une valeur(type entier) est divisible par 2   
  * 
  * 
-* **********************AFFICHAGE ATTENDU ****************:
  * 
- * a = 2
- * b = 3
+ * **********************AFFICHAGE ATTENDU ****************:
  * 
- * resultat = a + b
  * 
- * resulat vaut 5
+ * a = 14
  * 
+ * 
+ * a est bien divisible par 2
  * 
  * 
 */
-
 import java.util.Scanner; // Importe le scanner par java
  
-    public class exo1 {
+    public class exo4 {
  
     public static void main(String[] args) {
  
@@ -28,10 +26,7 @@ import java.util.Scanner; // Importe le scanner par java
         int b = sc.nextInt();
  
         int result = a + b; // La machine calcul les deux variables
+
+        if(result % 2 ==0)
  
-        System.out.println("le résultat vaut " + result); // Affiche le résultat
- 
-        sc.close(); // Ferme le scanner
-       
-    }
-}
+        System.out.println("le résultat est divible par 2 " + result); // Affiche le résultat
