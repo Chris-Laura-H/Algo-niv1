@@ -27,6 +27,13 @@ import java.util.Scanner; // Importe le scanner par java
  
         int result = a + b; // La machine calcul les deux variables
 
-        if(result % 2 ==0)
+        if (result % 2 ==0) {
+            System.out.println("Le résultat (" + result + ") est bien divisible par 2.");
+        } else {
+            System.out.println("Le résultat (" + result + ") est n'est pas divisible par 2.");
+        }
  
-        System.out.println("le résultat est divible par 2 " + result); // Affiche le résultat
+        sc.close(); // Ferme le scanner
+   
+    }
+}
