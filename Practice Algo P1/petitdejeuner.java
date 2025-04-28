@@ -18,19 +18,30 @@ Mon petit déjeuner est prêt (Message)
 
 Déclaration de variable :  int (Type) cereal (Variable)*/
 
- 
+import java.util.Scanner; 
+
     public class petitdejeuner {
  
     public static void main(String[] args) {
 
-        int lait = 20;
-        int cereal = 100;
+        Scanner clavier = new Scanner(System.in);
+
+        System.out.println("Quantité de lait");
+
+        int lait = clavier.nextInt();
+
+        System.out.println("Quantité céréale");
+
+        int cereal = clavier.nextInt();
         int bol = 0;
-        if (lait == 0 || cereal == 0 ) {
-            System.out.println("Alors je ne peux pas prendre mon petit déjeuner");
-        else
-            System.out.println("Je peux prendre mon petit déjeuner");
+        if (lait > 0 || cereal > 0 ) {
+            System.out.println("Alors je ne peux pas prendre mon petit déjeuner");}
+        else{
+            System.out.println("Je peux prendre mon petit déjeuner");}
+
+            bol=lait+cereal;
+
+            clavier.close(); 
 
     }
-}
 }
