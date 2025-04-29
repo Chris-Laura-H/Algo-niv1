@@ -38,3 +38,49 @@
  * 
  * 
 */
+import java.util.Scanner; // Importe le scanner par java
+ 
+    public class exo9 {
+ 
+    public static void main(String[] args) {
+ 
+        Scanner sc = new Scanner(System.in); // Déclaration du scanner
+ 
+        System.out.println("Votre prénom ?");
+        String prenom = sc.nextLine();
+
+        System.out.println("Votre nom ?");
+        String nom = sc.nextLine();
+
+        System.out.println("Votre adresse ?");
+        String adresse = sc.nextLine();
+
+        System.out.println("votre mot de passe ?");
+        String mdp = sc.nextLine();
+
+        System.out.println("confirmer votre mot de passe ?");
+        String mdp2 = sc.nextLine();
+ 
+        if(mdp.equals(mdp2))
+            System.out.println("Merci" +prenom+ nom+ ", votre inscription a bien été effectuée, vous recevrez un mail de confirmation à l'adresse :" +adresse);
+
+        else 
+            System.out.println("inscription annulée");
+
+        System.out.println("Pour vous connecter, renseignez votre email ?");
+        String adresse2 = sc.nextLine();
+
+        System.out.println("Renseignez votre mot de passe ?");
+        String mdp3 = sc.nextLine();
+
+        if(mdp2.equals(mdp3) && adresse.equals(adresse2))
+            System.out.println("connexion réussie");
+
+        else 
+            System.out.println("connexion refusée");
+
+
+        sc.close(); // Ferme le scanner
+       
+    }
+}
