@@ -15,6 +15,13 @@
  * resultat est impaire
  * 
  * 
+ *J'appelle les deux variables a et b. J'interroge l'utilisateur sur ces deux valeurs (scanner). Puis je calcul la somme de a et b, et j'affiche le résultat. 
+ Si le modulo de 2 est égal à 0, le résultat est pair. Sinon, le résultat est impair.
+ *
+ *Je déclare les deux variables a et b de type entier. Je déclare une variable de type scannner et je l'affecte au variable a et b.
+ * Je déclare une variable résult de type entier. J'affecte à résult a + b. Je fais une condition où je calcul le modulo de résult par 2 et je vérifie s'il est égal à zéro.
+ * Si c'est vrai, alors on affiche le message concaténé "Le résultat (" + result + ") est pair.". Si c'est faux, alors on affiche le message concaténé 
+ * "Le résultat (" + result + ") est impair.".
  * 
 */
 import java.util.Scanner; // Importe le scanner par java

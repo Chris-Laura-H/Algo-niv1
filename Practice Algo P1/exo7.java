@@ -13,6 +13,10 @@
  * "Nice to meet you"
  * 
  * 
+ * Déclarer une variable de type texte
+ * 
+ * 
+ * 
  * 
 */
 import java.util.Scanner; /* Importation de la bibliothèque Java Scanner */

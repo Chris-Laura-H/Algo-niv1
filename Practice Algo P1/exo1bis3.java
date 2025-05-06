@@ -11,6 +11,7 @@
  * resulat vaut 5
  * 
  * 
+ *
  * 
 */
 
@@ -26,6 +27,12 @@ public class exo1bis3 {
 
     System.out.println("Donner une valeur b");
     int b;
+
+    int result = a + b;
+    System.out.println("Le résultat est "+result)
+
+    clavier.close();
+
 
 
 }

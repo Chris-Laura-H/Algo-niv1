@@ -10,7 +10,8 @@
  * 
  * Je m'appelle Eudes , j'ai 32 ans
  * 
- * 
+ * Je déclare deux variables de type texte.  Je déclare le scanner. Je demande à l'utilisateur ""Quel est votre prénom et votre age" 
+ * Le système affiche la phrase avec les concaténations "Je m'appelle "+prenom+", j'ai "+age+ " ans" 
  * 
 */
 

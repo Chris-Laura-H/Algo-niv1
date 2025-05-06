@@ -11,6 +11,11 @@
  * 
  * equation est superieur
  * 
+ * J'appelle les deux variables a,b et c. J'interroge l'utilisateur sur ces trois valeurs (scanner). Puis je calcul le résultat a * b / c, et j'affiche le résultat. 
+ *Si le result est supérieur à 10, afficher "La somme (" + result + ") est supérieure à 10.", sinon "La somme (" + result + ") n'est pas supérieure à 10."
+ * 
+ * 
+ * 
 */
 import java.util.Scanner; // Importe le scanner par java
  

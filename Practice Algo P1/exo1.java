@@ -10,6 +10,9 @@
  * 
  * resulat vaut 5
  * 
+ *  J'appelle les deux variables a et b. J'interroge l'utilisateur sur ces deux valeurs (scanner). Puis je calcul la somme de a et b, et j'affiche le résultat.
+ * Je déclare les deux variables a et b de type entier. Je déclare une variable de type scannner et je l'affecte au variable a et b.
+ * Je déclare une variable résult de type entier. J'affecte à résult a + b. J'affiche résult.
  * 
  * 
 */

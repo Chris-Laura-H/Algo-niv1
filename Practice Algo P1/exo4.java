@@ -11,6 +11,11 @@
  * a est bien divisible par 2
  * 
  * 
+ * J'appelle la variable a. J'interroge l'utilisateur sur cette  valeurs (scanner). Puis j'utilise le modulo de 2.
+ * S'il est égal à 0, le résultat est bien divisible par 2. Sinon, le résultat n'est pas divisible par 2.
+ * 
+ * 
+ * 
 */
 import java.util.Scanner; // Importe le scanner par java
  
@@ -30,7 +35,7 @@ import java.util.Scanner; // Importe le scanner par java
         if (result % 2 ==0) {
             System.out.println("Le résultat (" + result + ") est bien divisible par 2.");
         } else {
-            System.out.println("Le résultat (" + result + ") est n'est pas divisible par 2.");
+            System.out.println("Le résultat (" + result + ") n'est pas divisible par 2.");
         }
  
         sc.close(); // Ferme le scanner
