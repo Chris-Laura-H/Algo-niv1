@@ -34,7 +34,7 @@ import java.util.Scanner;
 
         int cereal = clavier.nextInt();
         int bol = 0;
-        if (lait > 0 || cereal > 0 ) {
+        if (lait > 0 && cereal > 0 ) {
             System.out.println("Alors je ne peux pas prendre mon petit déjeuner");}
         else{
             System.out.println("Je peux prendre mon petit déjeuner");}
