@@ -12,6 +12,8 @@
  * Opération refusée, fond insuffissant !
  * 
  * 
+ * 
+ * 
 */
 
 import java.util.Scanner; // Importation de la classe Scanner pour lire les entrées utilisateur

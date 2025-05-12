@@ -13,7 +13,8 @@
  * "Nice to meet you"
  * 
  * 
- * Déclarer une variable de type texte
+ * Déclarer une variable de type texte. Déclarer le scanner. Demander à l'utilisateur "Do you speak english (Y/N)". Le scanner permet d'enregistré la frappe de l'utilisateur.
+ * Si la réponse est "Y" afficher Nice to meet you", sinon "So learn english !".
  * 
  * 
  * 

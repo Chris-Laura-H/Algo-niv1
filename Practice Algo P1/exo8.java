@@ -26,6 +26,13 @@
  * 
  * Merci Eudes KONDA , votre inscription a bien été effectuée, vous recevrez un mail de confirmation à l'adresse : ekonda@arfp.asso.fr
  * 
+ * Demander "Votre prénom", "Votre nom", "Votre adresse", "Votre mot de passe", "confirmer votre mot de passe". Si le mot de passe est bon,
+ * afficher "Merci" +prenom+ nom+ ", votre inscription a bien été effectuée, vous recevrez un mail de confirmation à l'adresse :" +adresse,
+ * sinon afficher "inscription annulée"
+ * 
+ * 
+ * 
+ * 
 */
 import java.util.Scanner; // Importe le scanner par java
  

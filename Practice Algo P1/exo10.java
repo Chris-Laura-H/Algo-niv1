@@ -7,6 +7,13 @@
  * 
  * Question 1 : 
  * 
+ * Déclarer le scanner, déclarer la valeur d'un entier score = 0. Démarrer la série de question.
+ * Question1. Si la réponse est "y", alors on rajoute un à score (score++) et on dit 
+ * Bonne réponse, vous avez un point., sinon c'est Mauvaise réponse. Cela est répété 4 autre fois.
+ * A la fin, le système affiche Vous avez " +score+ " points.
+ * 
+ * 
+ * 
  * 
 */
 import java.util.Scanner; // Importe le scanner par java

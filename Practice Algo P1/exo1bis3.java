@@ -29,7 +29,7 @@ public class exo1bis3 {
     int b;
 
     int result = a + b;
-    System.out.println("Le résultat est "+result)
+    System.out.println("Le résultat est "+result);
 
     clavier.close();
 

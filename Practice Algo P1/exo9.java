@@ -35,6 +35,13 @@
  * 
  * ekonda123&!
  * 
+ * Demander "Votre prénom", "Votre nom", "Votre adresse", "Votre mot de passe", "confirmer votre mot de passe". Si le mot de passe est bon,
+ * afficher "Merci" +prenom+ nom+ ", votre inscription a bien été effectuée, vous recevrez un mail de confirmation à l'adresse :" +adresse,
+ * Puis demander ces deux éléments "Pour vous connecter, renseignez votre email ?" "Renseignez votre mot de passe ?"
+ * Dans ce if, rajouter une condition si le mot de passe et l'adresse sont valide "connexion réussie", sinon "connexion refusée"
+ * Sinon afficher "inscription annulée"
+ * 
+ * 
  * 
  * 
 */
