@@ -1,6 +1,6 @@
 import java.util.Scanner; 
 
-public class empty { 
+public class methodNiv1 { 
 
 
     public static void main(String[] args) { /* Toujours le mettre pour tester votre code */
