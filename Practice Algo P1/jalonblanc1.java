@@ -4,13 +4,13 @@ public class jalonblanc1 {
     public static void main(String[] args) {
         
         // Création d'un objet Scanner pour lire les entrées de l'utilisateur
-        Scanner scanner = new Scanner(System.in);
+        Scanner clavier = new Scanner(System.in);
 
         // Demander à l'utilisateur de saisir son âge
         System.out.print("Veuillez entrer votre âge : ");
         
         // Lecture de l’âge saisi au clavier
-        int age = scanner.nextInt();
+        int age = clavier.nextInt();
 
         // Vérification de l'âge pour déterminer si la personne est majeure ou mineure
         if (age < 18) {
@@ -22,6 +22,6 @@ public class jalonblanc1 {
         }
 
         // Fermeture du scanner (bonne pratique)
-        scanner.close();
+        clavier.close();
     }
 }
